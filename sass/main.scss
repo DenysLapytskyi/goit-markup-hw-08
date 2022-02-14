@@ -1,25 +1,6 @@
-// base
-@import "./base/common";
-@import "./base/container";
-
-//utils
-@import "./utils/variables";
-@import "./utils/visually-hidden";
-
-//layot
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/advantages";
-@import "./layout/adout";
-@import "./layout/workers";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/portfolio-buttons";
-@import "./layout/portfolio-cards";
-@import "./layout/overlay";
-@import "./layout/modal";
-@import "./layout/modal-form-footer";
-
-//components
-@import "./components/components";
-@import "./components/subtitle";
+@import './base/reset', './util/vars', './util/variables', './base/common', './components/header',
+  './components/logo', './components/nav', './components/contacts', './components/hero',
+  './components/qualities', './components/technologies', './components/workers',
+  './components/clients', './components/button', './components/footer', './components/subscribe',
+  './components/portfolio-buttons', './components/project-types', './util/hidden',
+  './components/modal', './components/form-modal';

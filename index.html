@@ -25,7 +25,7 @@
   <body>
     <!-- Хедер с панелью нав и контактами -->
     <header class="header">
-      <di class="container header__container">
+      <div class="container header__container">
         <nav class="navigation">
           <a lang="en" href="./index.html" class="logo">
             <span class="logo__part" lang="en">Web</span>Studio
@@ -36,7 +36,7 @@
             type="button"
             class="navigation__btn js-open-menu"
             aria-expanded="false"
-            aria-controls="mobile-menu"
+            
             aria-label="Открытие мобильного меню"
           >
             <svg width="40" height="40" aria-label="Переключатель мобильного меню">
@@ -50,7 +50,7 @@
                 type="button"
                 class="navigation__btn mobile-close-btn js-close-menu"
                 aria-expanded="false"
-                aria-controls="mobile-menu"
+                
                 aria-label="Закрытие мобильного меню"
               >
                 <svg width="40" height="40" aria-label="Переключатель мобильного меню">
@@ -555,8 +555,8 @@
         <div class="subscribe-container">
           <h3 class="social-networks__title">Подпишитесь на рассылку</h3>
           <div class="subscribe-form">
-            <input type="email" name="user-mail" id="user-mail" class="subscribe-form__input" />
-            <label for="user-mail" class="subscribe-form__mail">E-mail</label>
+            <input type="email" name="user-mail" id="user-email" class="subscribe-form__input" />
+            <label for="user-email" class="subscribe-form__mail">E-mail</label>
 
             <button type="submit" class="button subscribe-form__btn">
               Подписаться

@@ -38,6 +38,7 @@ ul li {
   --footer-section-color: #2f303a;
   --workers-section-color: #f5f4fa;
   --lower-contacts-color: rgba(255, 255, 255, 0.6);
+  --icon-text-color: #afb1b8;
 }
 
 body {
@@ -775,7 +776,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--primary-text-color);
+  color: var(--icon-text-color);
   border-radius: 50%;
 }
 
@@ -847,7 +848,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 92px;
-  color: var(--primary-text-color);
+  color: var(--icon-text-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
